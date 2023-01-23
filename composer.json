@@ -1,0 +1,15 @@
+{
+    "require": {
+        "slim/slim": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Middleware\\": "middleware",
+            "Helpers\\Files\\": "helpers\\files",
+            "Helpers\\Databases\\": "helpers\\databases",
+            "Database\\": "database",
+            "Config\\": "config",
+            "Controllers\\": "controllers"
+        }
+    }
+}
